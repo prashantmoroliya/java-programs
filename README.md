@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+<p align="center">
+  <img src="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif"/>
+</p>
+  
+## Welcome to My Java Programs
 
-You can use the [editor on GitHub](https://github.com/prashantmoroliya/java-programs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+In here I upload my personal source code for Java programs which I try to learn during my training at [CRISP India.](https://www.crispindia.com/) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I will try to maintain my source codes as clear and as recent as possible.
 
-### Markdown
+### Right now I am enrolled in the course [Java Programming J2SE](https://www.crispindia.com/index.php/java-j2se) Offline - in campus course.
+#### Mentor: Mr Mohun B Muley
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Topic covered in the course is 
+- Introduction to Java
+- History of Java
+- Data Types
+  - int
+  - short
+  - long
+  - byte
+  - boolean
+  - float
+  - double
+  - char
+- Variables
+- Arithmetic Operations (+, -, *, /)
+- conditions (if-else, switch, if-else-if)
+- loops (for, while, do-while)
+- Arrays
+  - 1D Array
+  - 2D Array
+- Assess Modifier
+  - public
+  - default
+  - private
+  - protected
+- Packages 
+- OOPs Concepts
+- Encapsulation
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prashantmoroliya/java-programs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### till 27th June 2022
+#### More will be update as course goes on....
+<p align="center">
+  <img src="https://c.tenor.com/lf5FVOhIRPcAAAAC/master-much-to-learn-you-still-have.gif"/>
+</p>
