@@ -1,0 +1,22 @@
+File handling in Java using FileWriter and FileReader
+
+File Operations:
+-----------------
+- create a File
+- Get file information
+- Write to a file 
+- Read from a File 
+- Delete a File
+
+CRUD
+
+Create a File
+-------------
+createNewFile() method is used to create a file
+
+Write to a File
+---------------
+WriteToFile() method is used to write in file
+
+Read from a File
+----------------

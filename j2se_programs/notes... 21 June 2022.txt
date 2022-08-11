@@ -1,0 +1,86 @@
+assignment operators... (=)
+
+a=a+1   a+=1    a++     ++a 
+a=a-1   a-=1    a--     --a 
+
+
+loops
+---------------
+
+entry controlled loops
+----
+for loop
+while loop
+
+exit controlled loop
+----
+do while loops
+
+----------------------
+while syntax
+
+int initialization;
+while(expression/condition) {
+    s1;
+    s2;
+    .
+    .
+    .
+    sn;
+    increment/decrement;
+}
+----------------
+for loop syntax
+
+for (initial value; end value; increment/decrement){
+    s1...sn;
+}
+
+initialization;
+for(; end value;increment/decrement){
+    s1...sn;
+}
+
+initialization;
+for(;end loop;) {
+    s1...sn;
+    increment/decrement
+}
+
+------------------
+
+do while loop syntax
+---
+do {
+    s1...sn;
+    increment/decrement;
+} while(condition/expression);
+
+-------
+
+Nested Loops...
+------------------------------------
+nested for... loop 
+
+----
+for() {
+    for(){
+        .
+        .
+        .
+    }
+}
+
+
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Matrix...
+
+(0,0)   (0,1)   (0,2)
+(1,0)   (1,1)   (1,2)
+(2,0)   (2,1)   (2,2)
+------------------------

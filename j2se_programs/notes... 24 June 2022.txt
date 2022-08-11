@@ -1,0 +1,25 @@
+1. MPP - Monolytic Programming Paradigm
+    - BASIC
+2. PPP - Procedural Programming Paradigm
+    - COBOL - Company Business Oriented Language, PASCAL
+3. SPP - Structral Programming Paradigm
+    - C (bottom up approch)
+4. OOPs - Object Oriented Programming 
+    - C++, Java
+
+polymorphism
+method overloading:
+    if methods have same name but different parameters then it is known as method overloading;
+
+eg.
+    public void add(int x, innt y);
+    public void add(int x);
+    public void add(int x, float y, int z);
+
+getter()\
+          ---> 
+setter()/
+
+Java private keyword
+
+A Java private keyword is an access modifier.

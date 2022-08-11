@@ -1,0 +1,30 @@
+Inheritance
+-----------
+- This mechanism of derivin a new class from existing/old class is called "inheritance".
+- Old Class - Parent class or 
+
+-----------
+5 types of inheritance
+- single
+- multiple
+- hierarchical
+- multi-level
+- hybrid
+- multipath
+-----------------------------------------------
+syntax
+------
+class SubClassName extends SuperClassName {
+    field declaation
+    method declaration
+}
+-----------------------------------------------
+
+method overriding -- concept of polymorphism
+method overloaded -- concept of polymorphism
+-----------------
+
+HW
+--
+WAP to enter three numbers to add using inheritance...
+---------------------------

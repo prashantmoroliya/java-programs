@@ -1,0 +1,75 @@
+Declaration of Arrays
+---------------------------------
+
+- Like anny other variables, arrays must declared and created before they can be used. Creation of arrays involve three steps:
+    -- Declare the array.
+    -- Create storage area in primart memory.
+    -- Put values into the array (i.e., Memory location)
+
+- Declaration of Arrays:
+    -- Form 1:
+        Type arrayname[];
+    -- Form 2:
+        Type[] arrayname;
+    
+    -- Example:
+        int[] students;
+        int students[];
+
+--- NOTE: we don't specify the size of arrays in the declation.
+
+====================================================================
+
+Creation of Arrays
+-------------------------------
+
+- After declating arrays, we need to allocate memory for storag array items.
+- In jaba, this is carried out by using "new" operator, as follows:
+    -- Arrayname = new type[size];
+-- Example:
+    -- students = new int[7];
+
+=====================================================================
+
+Initialisation of Arrays
+-----------------------------------
+- Once arrays are created, they need to be initialised with some values before access their content. A general form of initialisaion is:
+    -- arrayname [index/subscript] = value;
+- Example"
+    -- students[0] = 12
+
+=====================================================================
+
+Arryas - Length
+-------------------------------------
+- Arrays are fixed length.
+- Length is specidifed at create time.
+- In java, all array store the allocated size in a variable named "length".
+- We can access the length of arrays as arrayName.length:
+    -- e.g. int x = students.lenght;
+
+=====================================================================
+
+
+- WAP to enter ten elements of an array, calculate their sum and average.
+- WAP to enter ten elements find the max and min number.
+
+HW...
+
+- WAP to enter ten numbers count how many numbers are even and odd; calculatetheir respective sum.
+
+=====================================================================
+
+2D Array 
+--------------------------
+
+int arrayname[][];
+example:
+    int arrayname[2][2];
+
+num[0][0] = 5
+num[0][1] = 15
+num[1][0] = 25
+num[1][1] = 35
+
+====================================================================

@@ -1,0 +1,16 @@
+Applets
+-------
+- init()
+- start()
+- paint()
+- stop()
+- destroy()
+
+inti() and destroy() can only be used once. and others can be used multiple times.
+-----------------------------------
+Applets were deprecreted in Java 9 so no more topic on Applet...
+-------------------------------------------------------------------------------------------------
+
+
+Streams and File I/O 
+-------------------- 

@@ -1,0 +1,45 @@
+methods;
+-------
+    - static methods
+    - non-static methods
+
+        // important types
+        -- no returntype no parameter
+        -- no returntype with parameter
+        -- with returntype no parameter
+        -- with returntype with parameter
+----------------------------------------------------------------
+benefits;
+    -- reuse of the methods
+    -- break the programs in small modules to create a complex programs.
+    -- it enhance the readability of program.
+
+Every methods has three parts:
+    -- declaration of method
+    -- body of method
+    -- invoking of method
+
+syntax;
+---------
+
+<accessmodifier> returntype <methodname> (parameter list) {
+    s1...sn;
+}
+
+// static method
+public static int method1(int1, int2,...) {
+    s1...sn;
+    return 0;
+}
+
+// non-static method
+public int method1(int1, int2,...) {
+    s1...sn;
+    return 0;
+}
+----------------------------------------------------------------
+main()
+public--
+private--
+protected--
+default--

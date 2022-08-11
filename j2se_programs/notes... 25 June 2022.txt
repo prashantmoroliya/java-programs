@@ -1,0 +1,20 @@
+         |  inside class    |   inside package  |   outside package/sclass  |   outside package
+--------------------------------------------------------------------------------------------------
+privat   |      yes         |       no          |           no              |       no
+default  |      yes         |       yes         |           no              |       no
+protected|      yes         |       yes         |           yes             |       no
+public   |      yes         |       yes         |           yes             |       yes
+--------------------------------------------------------------------------------------------------
+
+Packages: Putting classes together
+----------------------
+
+Java foundation package
+-----------------------
+- java.lang
+- java.util
+- java.io
+- java.awt
+- java.net
+- java.applet
+-----------------------

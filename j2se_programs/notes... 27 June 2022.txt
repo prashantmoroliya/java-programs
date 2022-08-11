@@ -1,0 +1,66 @@
+OOPs:
+Object Oriented Programming concepts
+
+encapsulation (classes and objects)
+inheritance
+polymorphism
+data abstraction/data hiding
+------------------------------------------------
+class Emp {
+    String name;
+    int age;
+    float sal;
+
+    public void getData(String nm, int ag, float sl)  {
+        name = nm;
+        age = ag;
+        sal = sl;
+    }
+    // or can also be written as...
+    // public void getData(String name, int age, float sal)  {
+    //     this.name = name;
+    //     this.age = age;
+    //     this.sal = sal;
+    // }
+
+    public void show() {
+        System.out.println("my name is = "+name);
+        System.out.println("my  age is = "+age);
+        System.out.println("my  sal is = "+sal);
+    }
+    public void calc() {
+        float ann_sal;
+        ann_sal = sal*12;
+        System.out.println("my ann_sal is = "+ann_sal);
+    }
+}
+
+class EncapsulationExample
+{
+    public static void main(String args[]) {
+        Emp ee = new Emp();
+        System.out.println("----------------------------");
+        ee.getData("Anakin", 25, 921921921.42f);
+        ee.show();
+        ee.calc();
+        System.out.println("----------------------------");
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Assignment:
+----------
+WAP to calculate area of circle, triangle and rectangle by using encapsulation.
+----------------------------------------------------------------------------------------------------
+
+constructors:
+
+salient features:
+    - are special methods to initialize
+    - it doesn't have void or return type
+    - its name is same as the name of the class
+    - it is of two types default and parametrized.
+    - as the object created; constructors invoked automatically.
+    - it doesn't have void or return type.
+    - constructors can also be overloaded.
+---------------------------------------------------------------------------------------------------------
