@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section>
+    <article>
+        <form action="register" method="post">
+            <div>
+                <h1>REGISTRATION<span style="color: red; font-size: 20px;"></span></h1>
+            </div>
+
+            <div>
+                <label for="uname">Username<span style="color: red; font-size: 20px;">*</span></label>
+<!--                <input type="text" id="uname" placeholder="Enter username" pattern="[A-Za-z0-9_]{1,15} " required>-->
+                <input value=""
+                       name="uname"
+                       id="uname"
+                       type="text"
+                       placeholder="enter username"
+                       required=""
+                       oninvalid="this.setCustomValidity('Not Valid')"
+                       onchange="try{setCustomValidity('')}catch(e){}"
+                       oninput="setCustomValidity(' ')"
+                       pattern="[a-zA-Z0-9_]{1,15}">
+            </div>
+
+            <div>
+                <label for="pword">Password<span style="color: red; font-size: 20px;">*</span></label>
+<!--                <input type="password" id="pword" placeholder="Enter password" pattern="[A,Z],[a,z],[0,9]" title="Maximum 15 character" required>-->
+                <input value=""
+                       name="pword"
+                       id="pword"
+                       type="password"
+                       title="Maximum 15 character"
+                       placeholder="enter password"
+                       required=""
+                       autofocus=""
+                       oninvalid="this.setCustomValidity('Not Valid')"
+                       onchange="try{setCustomValidity('')}catch(e){}"
+                       oninput="setCustomValidity(' ')"
+                       pattern="[a-zA-Z0-9_@*]+">
+            </div>
+
+            <div>
+                <label for="mail">Email<span style="color: red; font-size: 20px;">*</span></label>
+<!--                <input type="email" id="mail" placeholder="Enter email" pattern="[a,z], [0,9], @, .">-->
+                <input value=""
+                       name="email"
+                       id="mail"
+                       type="email"
+                       placeholder="enter email id"
+                       required=""
+                       autofocus=""
+                       oninvalid="this.setCustomValidity('Not Valid')"
+                       onchange="try{setCustomValidity('')}catch(e){}"
+                       oninput="setCustomValidity(' ')"
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </div>
+
+            <div class="radio">
+                <label for="gender">Gender<span style="color: red; font-size: 20px;">*</span></label>
+                <span>
+                    <input type="radio" id="male" value="gender">
+                    <label for="male" class="man">Male</label>
+                </span>
+
+                <span>
+                    <input type="radio" id="female" value="gender">
+                    <label for="female" class="woman">Female</label>
+                </span>
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth<span style="color: red; font-size: 20px;">*</span></label>
+                <input type="date" id="dob" placeholder="Enter date of birth" required>
+            </div>
+
+            <div>
+                <label for="phno">Contact No<span style="color: red; font-size: 20px;">*</span></label>
+                <input type="text" name="Country code" value="+91" size="1" id="phno" placeholder="Enter contact no." max="10" title="Length should be 10" required>
+            </div>
+
+            <div>
+                <label for="img">Image<span style="color: red; font-size: 20px;">*</span></label>
+                <input type="file" name="image" id="profile-img" required>
+            </div>
+
+            <input type="radio" id="Checkbox" required>
+            <label for="checkbox">I hereby accept all terms and conditions<span style="color: red; font-size: 20px;">*</span></label>
+
+            <div class="login">
+                <button>SignUp</button>
+            </div>
+
+        </form>
+
+    </article>
+
+</section>
+
+</body>
+
+</html>
